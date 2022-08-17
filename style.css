@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+.titulo {
+    background-color: blue;
+    width:540px;
+    height:63px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px;
+
+
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 66px;
+letter-spacing: -0.004em;
+
+color: #75B79E;
+}
+
+.boardcards {
+    background-color: blueviolet;
+    display: flex;
+}
+.card {
+    width: 117px;
+    height: 146px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+
+    box-sizing: border-box;
+    background: #A7E9AF;
+border: 1px solid #99CEA8;
+border-radius: 5px;
+
+margin-right: 34px;
+}
+
+.papagaioVerde{
+    width: 100px;
+    height: 100px;
+    margin-top: 24px;
+    margin-left: 10px;
+}
