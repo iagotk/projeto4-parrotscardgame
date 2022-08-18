@@ -121,8 +121,8 @@ function começarnovapartida() {
 }
 
 function escolha() {
-  if (novapartida === "sim") {
-    window.location.reload();
+  if (novapartida === "sim" || novapartida === "Sim") {
+    window.location.reload(); /* window.location pega todas as informaçoes do local do documento */
   } else {
     alert("Assim você nunca será digno de pisar nas terras tibianas!");
   }
