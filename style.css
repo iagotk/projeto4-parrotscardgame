@@ -92,3 +92,23 @@ img {
   border-radius: 6px;
 }
 
+
+@media (max-width: 614px) {
+  .titulo {
+    color: orangered;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    width: 100%;
+    height: auto;
+    line-height: 66px;
+    letter-spacing: -0.004em;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 47px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  }
